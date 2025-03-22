@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Sulphur+Point:wght@300;400;700&family=Timmana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Timmana&display=swap');
+
+ * {padding: 0;
+    margin: 0;
+}    
+
+/*Header*/
+.logo-nav {
+    max-width: 100px;
+    border-radius: 5px;
+}
+
+/*Main*/
+.contenedor {
+    display: grid;
+    grid-template-areas:titulo
+                        imagen-ppal
+                        texto
+                        imagenes-fondo;
+    row-gap: 30px;
+    background-color: bisque;
+}
+
+.contenedor div img {
+    width: 100%;
+}
+
+.contenedor-mi {
+    display: grid;
+    grid-template-areas: titulo
+                        imagen-mi texto;
+    background-color: bisque;
+    row-gap: 30px;
+    justify-items: center;
+}
+
+.contenedor-mi div img {
+    border-radius: 30px;    
+}
+
+.contenedor-clases {
+    display: grid;
+    background-color: bisque;
+    row-gap: 30px;
+    justify-items: center;
+}
+
+.contenedor-clases div img {
+    border-radius: 30px;    
+}
+
+
+.titulo {
+    font-family: "Carrois Gothic", serif;
+    font-weight: 400;
+    color: chocolate;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.texto {
+    font-family: "Carrois Gothic", serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.imagen-final {
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: rgb(243, 112, 6);
+}
+
+
+/*Footer*/
+.footer-cont {
+    display: flex;
+    background-color: rgb(253, 116, 3);
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer-dat {
+    font-family: "Carrois Gothic", serif;
+    font-size: 20px;
+    color: beige;
+
+}
